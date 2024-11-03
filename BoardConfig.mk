@@ -64,7 +64,7 @@ BOARD_USES_METADATA_PARTITION := true
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
 TARGET_COMPILE_WITH_MSM_KERNEL := true
-TARGET_KERNEL_SOURCE := kernel/google/wahoo
+TARGET_KERNEL_SOURCE := device/google/wahoo-kernel
 TARGET_NEEDS_DTBOIMAGE := true
 
 # Partitions (listed in the file) to be wiped under recovery.
